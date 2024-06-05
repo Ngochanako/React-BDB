@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function delayedCallback(delay,callback){
+           setTimeout(callback,delay);
+        }
+        function sayHello(){
+            console.log("hello");
+        }
+        delayedCallback(2000,sayHello);
+    </script>
+</body>
+</html>
